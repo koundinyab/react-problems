@@ -1,0 +1,32 @@
+.progressBarContainer {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 35%;
+    flex-wrap: wrap;
+}
+.progressBarContainer progress {
+    margin-top: 5%;
+}
+.progressBarItem {
+    width: 100%;
+    position: relative;
+}
+.progressBar {
+    margin-top: 5%;
+    border-radius: 15%;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+.progressBar span {
+    margin: 0 auto;
+    position: relative;
+    left: 40%;
+}
+.progressBar ::after {
+    height: 100%;
+    background-color: lightgreen;
+    content: "";
+    position: absolute;
+}

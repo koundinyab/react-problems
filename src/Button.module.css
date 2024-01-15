@@ -1,0 +1,18 @@
+.button {
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 35%;
+}
+.button span {
+    margin-right: 5px;
+}
+.button:hover {
+    color: red;
+    border-color: red;
+}
+.buttonClicked {
+    background-color: red;
+    color: white !important;
+    border-color: transparent !important;
+}

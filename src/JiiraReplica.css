@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.containerItem {
+    width: 30%;
+}

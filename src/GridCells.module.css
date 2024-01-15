@@ -1,0 +1,26 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 50%;
+    height: 100vh;
+    padding: 10px;
+}
+.gridItem {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.omitCenter {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: transparent;
+    border: none;
+}
+.bgColor {
+    background-color: green;
+}

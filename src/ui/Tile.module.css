@@ -1,0 +1,15 @@
+.tileContainer {
+    background-color: rgb(182, 179, 174);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.title {
+    font-weight: bold;
+}
+.footer {
+    margin-top: 5px;
+}
+.footer :first-child {
+    margin-right: 5px;
+}
