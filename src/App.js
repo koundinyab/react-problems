@@ -2,6 +2,7 @@
 import "./App.css";
 import GridCells from "./GridCells";
 import HackerNewsJobs from "./Hacker-news-jobs";
+import LoanCalculator from "./Loan-calculator";
 // import ProgressBar from "./ProgressBar";
 // import Button from "./Button";
 // import JiiraReplica from "./JiiraReplica";
@@ -21,7 +22,8 @@ function App() {
             {/* <Button></Button> */}
             {/* <ProgressBar value={progressBarProp}></ProgressBar> */}
             {/* <HackerNewsJobs></HackerNewsJobs> */}
-            <GridCells></GridCells>
+            {/* <GridCells></GridCells> */}
+            <LoanCalculator></LoanCalculator>
         </div>
     );
 }
