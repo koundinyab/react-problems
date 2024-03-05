@@ -1,0 +1,8 @@
+.tabsContainer {
+    padding: 20px;
+}
+.tab {
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
