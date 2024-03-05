@@ -1,0 +1,19 @@
+.stopwatch {
+    padding: 25px;
+}
+.stopwatch span {
+    font-size: xx-large;
+}
+.buttonContainer {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    width: 50px;
+}
