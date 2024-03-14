@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.itemContainer {
+    width: 30%;
+    height: 400px;
+    border: 1px solid black;
+}
+.buttonContainer {
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.buttonContainer button {
+    padding: 5%;
+    margin: 5px;
+    border-radius: 5%;
+    background-color: aqua;
+}

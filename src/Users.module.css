@@ -1,0 +1,40 @@
+.userTile {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* padding: 20px; */
+    width: 25%;
+    align-items: center;
+    border-radius: 5%;
+}
+.userTileHeader {
+    width: 100%;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+}
+.userTileImagHeader img {
+    border-radius: 50%;
+    position: relative;
+    top: 30%;
+}
+.userTileBody {
+    margin: 25px;
+}
+.userTileFooter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.userTileFooter button {
+    padding: 5px;
+    border-radius: 10%;
+}
+.userTileFooter button:hover {
+    background-color: lightgreen;
+}
